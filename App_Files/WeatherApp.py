@@ -23,7 +23,7 @@ def format_response(weather_info):
 
 
 def change_icon(weather_result):
-    path = 'C:/Python_Projects/Weather_App/App_Files/Images/'
+#     path = 'C:/Python_Projects/Weather_App/App_Files/Images/'
     file_type = '.png'
 
     weather_icon = path + weather_result + file_type
@@ -78,7 +78,7 @@ def click(event):
 root = Tk()
 root.geometry('700x500')
 root.title("Weather")
-root.iconbitmap("C:/Python_Projects/Weather_App/App_Files/App_Icon.ico")
+# root.iconbitmap("C:/Python_Projects/Weather_App/App_Files/App_Icon.ico")
 text_fg = "white"
 entry_fg = "gray"
 canvas_bg = '#87CEEB'
